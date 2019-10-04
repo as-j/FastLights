@@ -10,6 +10,7 @@ definition(
         page(name: "mainPage", title: "Settings Page", install: true, uninstall: true) {
             section("Mode and Motion Lighting") {
                 app name: "modeMotionLighting", appName: "Fast Motion and Mode Lights-2.0", namespace: "asj", title: "New Mode and Motion", multiple: true
+                app name: "modeAdvOffLighting", appName: "Fast Motion and Mode with Adv Off", namespace: "asj", title: "New Adv Off Mode/Motion", multiple: true
             }
         }
     }
