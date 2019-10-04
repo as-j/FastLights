@@ -42,7 +42,6 @@ def uninstalled() {
  *  Runs when app settings are changed.
  * 
  *  Updates device.state with input values and other hard-coded values.
- *  Builds state.deviceAttributes which describes the attributes that will be monitored for each device collection 
  *  Refreshes scheduling and subscriptions.
  **/
 def updated() {
