@@ -270,3 +270,6 @@ def advTimeOffCalc(timeOffS) {
 def advReset() {
     state.advTimeOffS = settings.timeOffS
 }
+
+def test() {
+}
